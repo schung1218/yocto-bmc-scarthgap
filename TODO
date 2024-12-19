@@ -1,0 +1,26 @@
+ERROR: No recipes in default available for:
+  /home/schung/shared/work/ma35d1/git-source/yocto-4.0/scarthgap-openbmc/openbmc/meta-ma35d1/meta-ma35d1/recipes-graphics/gstreamer1.0-plugins-bad/gstreamer1.0-plugins-bad_1.16.3.bbappend
+  /home/schung/shared/work/ma35d1/git-source/yocto-4.0/scarthgap-openbmc/openbmc/meta-ma35d1/meta-ma35d1/recipes-security/openssl/openssl_1.1.1k.bbappend
+  /home/schung/shared/work/ma35d1/git-source/yocto-4.0/scarthgap-openbmc/openbmc/meta-ma35d1/meta-ma35d1/recipes-security/rng-tools/rng-tools_6.9.bbappend
+
+todo:
+
+
+WARNING: /home/schung/shared/work/ma35d1/git-source/yocto-4.0/scarthgap-openbmc/openbmc/meta-phosphor/recipes-phosphor/mrw/mrw-api-native.bb: QA Issue: mrw-api-native: native/nativesdk class is not inherited last, this can result in unexpected behaviour. Classes inherited after native/nativesdk: mrw-rev.bbclass perl-version.bbclass cpan-base.bbclass perlnative.bbclass [native-last]
+
+openbmc/meta-phosphor/recipes-phosphor/mrw/mrw-api-native.bb:
+
+before:
+
+inherit native
+inherit perlnative
+inherit cpan-base
+inherit mrw-rev
+
+after:
+
+inherit perlnative
+inherit cpan-base
+inherit mrw-rev
+inherit native
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="3"/>
+  <remote fetch="https://github.com/schung1218" name="nuvoton"/>
+  <remote fetch="https://github.com/openbmc" name="obmc"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt"/>
+  <project remote="obmc" name="openbmc" revision="cb5aa61fe6dc534cf4cd0902fae3d67d80dbd39e" path="openbmc"/>
+  <project remote="nuvoton" name="yocto-bmc-scarthgap" revision="master" path="openbmc/meta-ma35h0"/>
+  <project remote="qt" name="meta-qt5" revision="fe0bf7f0e5408aac6cc89ff3b19b1b1941df4f64" upstream="scarthgap" path="openbmc/meta-ma35h0/meta-qt5"/>
+
+</manifest>

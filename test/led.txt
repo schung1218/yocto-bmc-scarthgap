@@ -1,0 +1,32 @@
+cp led-group-config.json /usr/share/phosphor-led-manager
+
+
+
+led-group-config.json :
+{
+    "leds": [
+        {
+            "group" : "bmc_booted",
+            "members" : [
+                {
+                    "Name" : "heartbeat",
+                    "Action" : "Blink",
+                    "DutyOn" : 50,
+                    "Period" : 1000
+                }
+            ]
+        },
+        {
+            "group": "enclosure_identify",
+            "members": [
+                {
+                    "Name": "identify",
+                    "Action": "Blink",
+                    "DutyOn": 50,
+                    "Period": 250
+                }
+            ]
+        }
+    ]
+}
+
