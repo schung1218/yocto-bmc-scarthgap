@@ -7,7 +7,7 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/meta-qt5" name="qt"/>
   <project remote="nuvoton" name="yocto-bmc-scarthgap" revision="master" path="sources"/>
-  <project remote="yocto" revision="bd6265ca323fac547a197bb516dc4a9ef3897508" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="bd6265ca323fac547a197bb516dc4a9ef3897508" revision="scarthgap" name="poky" path="sources/poky"/>
   <project remote="oe" revision="b8d1a14f7f3b76457c36752202ea7ae5881b6654" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="qt" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" name="meta-qt5" upstream="scarthgap" path="sources/meta-qt5"/>
 
