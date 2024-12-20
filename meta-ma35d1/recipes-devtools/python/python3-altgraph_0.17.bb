@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=3590eb8d695bdcea3ba57e74adf8a4ed"
 
 inherit setuptools3 native
 
-SRCREV= "bbd2ad60c9908b2de4c96dcb2eb0365bd61d4f9f"
+SRCREV= "fc154b550e516f159e20585a0adee82500204399"
 
 SRC_URI = "git://github.com/ronaldoussoren/altgraph.git;protocol=https;branch=master"
 S = "${WORKDIR}/git"

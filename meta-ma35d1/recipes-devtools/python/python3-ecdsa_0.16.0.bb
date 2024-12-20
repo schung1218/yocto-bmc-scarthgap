@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=66ffc5e30f76cbb5358fe54b645e5a1d"
 
 inherit setuptools3 native
 
-SRCREV= "f27b20ff2a67c6b1afe473dd347c8da5c4017e34"
+SRCREV= "ea9666903c109a8e88a37eb1c60d4e98f01f0299"
 
 SRC_URI = "git://github.com/warner/python-ecdsa.git;protocol=https;branch=master"
 S = "${WORKDIR}/git"

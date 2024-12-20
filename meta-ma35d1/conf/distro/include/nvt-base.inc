@@ -22,7 +22,7 @@ PREFERRED_PROVIDER:udev-utils = "systemd"
 # =========================================================================
 # DISTRO features
 # =========================================================================
-DISTRO_FEATURES ?= " vc8000 dcultrafb gc520 directfb systemd alsa"
+DISTRO_FEATURES ?= " vc8000 dcultrafb gc520 directfb systemd alsa usrmerge"
 VIRTUAL-RUNTIME_init_manager = "systemd"
 DISTRO_FEATURES_BACKFILL_CONSIDERED += "sysvinit"
 
