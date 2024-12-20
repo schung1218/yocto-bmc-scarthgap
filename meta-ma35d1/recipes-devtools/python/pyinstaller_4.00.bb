@@ -1,14 +1,12 @@
 SUMMARY = " pyinstaller_4.00 "
 
 LICENSE = "MIT"
-#LIC_FILES_CHKSUM = "file://COPYING.txt;md5=702f886187082d5370323fae257c8523"
-LIC_FILES_CHKSUM = "file://COPYING.txt;md5=752110777ecd9e72b16df0e59c1e0019"
+LIC_FILES_CHKSUM = "file://COPYING.txt;md5=9026c0c1a28526b6ed7e4dce6423fbd7"
 inherit setuptools3 native
 
-#SRCREV= "19fb799a11d2d796fc8758808f873c40e2bf5118"
-SRCREV= "bcb824c1ad2989855a5fc01d95e5fc693b2f0966"
+SRCREV= "30e13d63f2c93af0d8a11fcfeeb1a182e316239d"
 
-SRC_URI = "git://github.com/pyinstaller/pyinstaller.git;protocol=https;branch=master"
+SRC_URI = "git://github.com/pyinstaller/pyinstaller.git;protocol=https;branch=v5"
 S = "${WORKDIR}/git"
 B =  "${WORKDIR}/build"
 
